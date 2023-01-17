@@ -37,6 +37,6 @@ function filterData(searchTerm) {
   listItems.forEach((item) => {
     item.innerText.toLowerCase().includes(searchTerm.toLowerCase())
       ? item.classList.remove("hide")
-      : item.classList.add("hide");ssList.add("hide");
+      : item.classList.add("hide");
   });
 }
